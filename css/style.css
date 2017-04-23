@@ -18,5 +18,390 @@ h2 {
   font-family: "Cuprum";
   color: rgb(0, 0, 0);
   text-transform: uppercase;
-  line-height: 0.8
+  line-height: 0.8;
+      display: inline-block;
 }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.main-header {
+  
+
+   
+}
+
+.header-logo {
+  float: left;  
+  width: 220px;
+  height: 42px; 
+  background-color: #ff5357;
+  color: white; 
+    border-bottom: 5px solid #c23f42;
+}
+
+.header-logo,
+.header-form,
+.Bookmarks,
+.Purchases,
+.Buy {
+  float: left;  
+}
+
+.header-form {
+    width: 270px;
+}
+
+.Buy {
+    float: right;
+    width: 150px;
+    height: 42px; 
+    background-color: #6db254;
+    color: white; 
+}
+
+.header-top {
+    height: 42px;
+    background-color: #33445a;
+}
+
+.header-bot {
+    box-sizing: border-box;
+    height: 280px;
+    padding-top: 45px;
+}
+
+.description p {
+    margin: 0px;
+}
+
+.description,
+.contacts,
+.registration {
+    float:left;
+}
+
+.description {
+    width: 250px;
+    margin-left: 52px;
+}
+
+.contacts {
+    width: 270px;
+    height: 67px;
+    margin: 0px auto;
+}
+
+.contacts .phone img,
+.contacts .phone p,
+.contacts p,
+.contacts .phone {
+   display: inline-block;
+   margin: 0px auto;
+}
+
+.registration {
+   width: 270px;
+   float: right;
+}
+
+.user-block {
+   float: right;
+}
+
+.main-navigation ul li {
+   display: inline-block;
+    margin: 0px;
+}
+
+.main-navigation ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-navigation {
+    width: 940px;
+    min-height: 60px;
+    background-color: #33445a;
+    border-bottom: 5px solid #33445a;
+    margin-top: 44px;
+}
+
+.main-catalog .container {
+    padding-top: 60px;
+}
+
+.thesis p {
+    margin: 0px;
+}
+
+.thesis {
+    width: 300px;
+    height: 123px;
+    background-color: #ffbf47;
+    margin-bottom: 20px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+    width: 620px;
+}
+
+.left .thesis {
+    float: left;
+    margin-right: 20px;
+}
+
+.instruments {
+    margin-right: 0px;
+}
+
+.slider {
+    background-image:url(slider%201.jpg);
+    width: 620px;
+    height: 266px;
+    float: left;
+}
+
+
+.popular-goods,
+.popular-manufacturers {
+    margin-top: 53px;
+    margin-bottom: 20px;
+    background-color: #f9f5f0;
+    height: 89px;
+}
+
+.popular-manufacturers {
+    margin-top: 20px;
+}
+
+.popular-goods a,
+.popular-manufacturers a {
+    float: right;
+}
+
+.btn {
+    width: 253px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    vertical-align: middle;
+    background-color: #ff5357;
+    text-decoration: none;
+    color: white;
+}
+
+.popular-goods .btn,
+.popular-manufacturers .btn{
+    margin-right: 24px;
+    margin-top: 25px;
+}
+
+
+article {
+    width: 218px;
+    height: 316px;
+    margin-right: 20px;
+    float: left;
+    border: 1px solid #eaeaea;
+}
+
+article:last-child {
+    margin-right: 0px;
+}
+
+.brend {
+    width: 218px;
+    height: 143px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    border: 1px solid #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.brend:nth-child(4n) {
+    margin-right: 0px;
+}
+
+.brend a,
+.brend img{
+    margin: auto;
+}
+
+.service {
+    height: 522px;
+    background-color: #f4f8f9;
+}
+
+.service .container {
+    padding-top: 65px;
+    background-image: url(truck.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.service h2 {
+    margin: 0px;
+    margin-bottom: 35px;
+}
+
+.service p {
+    margin-top: 0px;
+    margin-bottom: 74px;
+}
+
+.services {
+    width: 240px;
+    float: left;
+    margin-right: 80px;
+}
+
+.Details {
+    float: left;
+    width: 312px;
+}
+
+.services a {
+    float: left;
+    width: 240px;
+    height: 61px;
+    background-color: #3d546e;
+    color: white;
+    line-height: 61px;
+    vertical-align: middle;
+}
+
+.services a:hover {
+    background-color: #293449;
+}
+
+.about {
+    height: 537px;
+}
+
+.about .container {
+    padding-top: 80px;
+}
+
+.about h2 {
+    margin: 0px;
+    margin-bottom: 35px;
+}
+
+.about p {
+    margin: 0px;
+    margin-bottom: 35px;
+}
+
+.company {
+    width: 535px;
+    float: left;
+}
+
+.map {
+    width: 300px;
+    float: right;
+}
+
+.main-footer {
+    height: 300px;
+}
+
+.footer-top {
+    height: 193px;
+    background-color: #3d546e;
+}
+
+.logo-bot {
+    width: 220px;
+    height: 68px;
+    float: left;
+    background-color: #ff5357;
+}
+
+.nav-bot {
+    float: right;
+}
+
+.string1 {
+    margin-bottom: 30px;
+}
+
+.menu-bot {
+    float: right;
+}
+
+.string2 span {
+    float: left;
+}
+ 
+.footer-bot {
+    height: 107px;
+    background-color: #33445b;
+}
+
+.footer-bot .container {
+    padding-top: 33px;
+}
+
+.footer-contacts {
+    width: 240px;
+    float: left;
+}
+
+.footer-social {
+    width: 140px;
+    float: left;
+}
+
+.footer-copyright {
+    width: 300px;
+    float: right;
+}
+
+.Feedback {
+    float: left;
+    width: 140px;
+}
+
+.Developed {
+    float: right;
+    width: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
