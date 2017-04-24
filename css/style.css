@@ -33,9 +33,9 @@ h2 {
   margin: 0 auto;
 }
 
-.main-header {
-  
-
+.top-header {
+  background-color: #293449;
+  height: 42px;
    
 }
 
@@ -60,6 +60,20 @@ h2 {
     width: 270px;
 }
 
+.Purchases {
+    float: right;
+    background-color: #ff5357;
+    width: 150px;
+    height: 42px;
+}
+
+.Bookmarks {
+    float: right;
+    background-color:  ;
+    width: 150px;
+    height: 42px;
+}
+
 .Buy {
     float: right;
     width: 150px;
@@ -67,6 +81,8 @@ h2 {
     background-color: #6db254;
     color: white; 
 }
+
+
 
 .header-top {
     height: 42px;
@@ -77,6 +93,7 @@ h2 {
     box-sizing: border-box;
     height: 280px;
     padding-top: 45px;
+    background-color: #f2f6f8;
 }
 
 .description p {
@@ -90,14 +107,21 @@ h2 {
 }
 
 .description {
-    width: 250px;
+    width: 197px;
     margin-left: 52px;
+    margin-right: 71px;
 }
 
 .contacts {
     width: 270px;
     height: 67px;
     margin: 0px auto;
+}
+
+.phone {
+    width: 270px;
+    height: 41px;
+    border: 2px solid white;
 }
 
 .contacts .phone img,
@@ -109,13 +133,20 @@ h2 {
 }
 
 .registration {
-   width: 270px;
-   float: right;
+    float: right;
+}
+
+.client {
+    width: 299px;
+    height: 45px;
+    background-color: white;
 }
 
 .user-block {
    float: right;
 }
+
+
 
 .main-navigation ul li {
    display: inline-block;
@@ -384,6 +415,189 @@ article:last-child {
     float: right;
     width: 140px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inner .main-catalog {
+    height: 1372px;
+}
+
+.inner .main-catalog .container {
+    padding-top: 24px;
+}
+
+.inner .breadcrumbs ul {
+    margin: 0px;
+}
+
+.inner .breadcrumbs ul li{
+    display: inline;
+}
+
+.inner .Caption {
+    margin-top: 23px;
+    height: 89px;
+    background-color: #f2f6f8;
+}
+
+.inner .Caption h2 {
+    margin-top: 32px;
+    margin-left: 28px;
+    font-weight: normal;
+}
+
+.inner .form-group {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 220px;
+    float: left;
+}
+
+.inner .Filter-unit .btn {
+    width: 140px;
+    background-color: white;
+    color: black;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+}
+
+.inner .left {
+    width: 220px;
+    height: 38px;
+    background-color: #f7f3ec;
+}
+
+.inner .right {
+    width: 700px;
+    height: 38px;
+    background-color: #f7f3ec;
+}
+
+
+
+
+.inner .showcase {
+    float: right;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.inner .Product-nav {
+    margin-top: 52px;
+    float: left;
+}
+
+.inner .Product-nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.inner .showcase article {
+    margin-top: 20px;
+}
+
+.inner .perforators article:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.inner .new .hoover .buy,
+.inner .new .hoover .bookmarks{
+    width: 135px;
+    height: 38px;
+}
+
+.inner .Product-nav li {
+    display: inline;
+}
+
+.inner .about-perforator {
+    height: 261px;
+    background-color: #f2f6f8;
+    color: black;
+}
+
+.inner .about-perforator .container {
+    padding-top: 68px;
+}
+
+.inner .about-perforator .container p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+body > div > div.main-catalog.clearfix > div > div.showcase > div.perforators > article.new.hoover > a.buy {
+    display: block;
+    width: 135px;
+    height: 38px;
+    background-color: #63a63e;
+    margin-top: 43px;
+    margin-left: 41px;
+    border-radius: 3px;
+}
+
+body > div > div.main-catalog.clearfix > div > div.showcase > div.perforators > article.new.hoover > a.bookmarks {
+    display: block;
+    width: 129px;
+    height: 32px;
+    border: 3px solid #63a63e;
+    margin-top: 8px;
+    margin-left: 41px;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
