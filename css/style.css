@@ -537,9 +537,14 @@ article:last-child {
     font-size: 15px;
 }
 
+.inner .about-perforator h2 {
+    margin-top: 0px;
+    margin-bottom: 38px;
+}
 
-
-
+.inner .about-perforator p {
+    margin: 0px;
+}
 
 
 
